@@ -1,0 +1,38 @@
+
+body {
+    background-color: rgb(226, 220, 220);
+    text-align: center;
+}
+
+form{
+    width: 20%;
+    margin-left: 40%;
+}
+input {
+    width: 100%;
+    color: black;
+    height: 40px;
+    background-color: rgb(241, 234, 234);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+
+button {
+    text-align: center;
+    color: white;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(51, 49, 49);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.715);
+}
+

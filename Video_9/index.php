@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form action="<?php echo htmlspecialchars($_SERVER ["PHP_SELF"]); ?>" method="post">
+    <form action="<?php echo htmlspecialchars($_SERVER ["PHP_SELF"]); ?>" method="POST">
         <input type="number" name="num01" placeholder="Munber one">
         <select name="operator">
             <option value="add">+</option>
@@ -59,7 +59,7 @@
                     $value = $num01 / $num02;
                     break;
                 default:
-                    echo "<p class='Somrthing went HORRIBLY wrong!</p>";
+                    echo "<p class='Something went HORRIBLY wrong!</p>";
             }
 
             echo"<p class='calc-result'>Result = " . $value . "</p>";
